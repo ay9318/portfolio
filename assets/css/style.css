@@ -17,6 +17,15 @@ body {
   overflow-x: hidden;
 }
 
+body::-webkit-scrollbar {
+  width: 10px;
+  height: 5px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #000;
+}
+
 .inner {
   max-width: 1400px;
   padding: 0 20px;

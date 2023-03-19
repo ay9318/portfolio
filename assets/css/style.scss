@@ -28,7 +28,16 @@
 }
 
 body {
-    overflow-x :hidden;
+    overflow-x: hidden;
+
+   &::-webkit-scrollbar {
+        width: 10px;
+        height: 5px;
+    
+        &-thumb {
+            background-color: #000;
+        }
+    }
 }
 
 .inner {
